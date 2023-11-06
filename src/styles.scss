@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto condensed';
+}
+
+body {
+  background: #BAB9BD;
+}
+.col-4 {
+  display: flex;
+  width: 428px;
+  padding: 32px;
+  justify-self: center;
+  align-items: center;
+  gap: 32px;
+  border-radius: 10px;
+  background: #FFF;
+}
+form {
+  justify-content: center;
+}
+.form-group {
+  margin: 15px;
+}
+
+.lable {
+  color: #130F1C;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  align-items: flex-start;
+}
+.placeholder {
+  background: #FAFAFA;
+  color: #BAB9BD;
+  padding: 12px 14px 12px 12px;
+  align-items: flex-start;
+  border-radius: 5px;
+}
+button {
+  display: flex;
+  padding: 12px 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 5px;
+  background: #651FFF;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+.different-button {
+  flex: 1;
+  border-radius: 5px;
+  border: 2px #969697;
+  background: rgb(160, 159, 159);
+  padding: 12px 48px;
+  margin: 10px;
+  transition: background-color 0.5s
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a img {
+  width: 24px;
+  height: auto; 
+}
+
+.toggle-switch {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-switch-checkbox {
+  display: none;
+}
+
+.toggle-switch-label {
+  position: relative;
+  width: 50px; 
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.toggle-switch-checkbox:checked + .toggle-switch-label {
+  background-color: #FD7918;
+}
+
+.toggle-switch-label::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: white;
+  left: 2px;
+  top: 2px;
+  transition: transform 0.3s;
+}
+
+.toggle-switch-checkbox:checked + .toggle-switch-label::before {
+  transform: translateX(30px);
+}
+
+.toggle-switch-text {
+  font-size: 14px;
+  color:#484848;
+}
+
+
+.contact-us--frame{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+  align-self: stretch;
+}
+.contact-us--inputs{
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  gap: 16px;
+  flex: 1 0 0;
+  flex-wrap: wrap;
+}
+.input_field{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex-shrink: 0;
+  flex-grow: 1;
+  align-self: stretch;
+  color:#130F1C;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+}
+.lable-input{
+  display: flex;
+  width: 665px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  border-radius: 10px;
+  background: #FFF;
+}
+textarea {
+  display: flex;
+  width: 100%;
+  height: 152px;
+  padding: 8px 14px 8px 12px;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: center;
+  border-radius: 5px;
+  background:#F3F3F5;
+}
+.button-submiiit {
+  display: flex;
+  padding: 12px 48px;
+  flex-direction: column;
+  align-self: flex-end;
+  gap: 10px;
+  width: 140px;
+  height: 48px;
+}
+.submit-section {
+  display: flex;
+  flex-direction: column;
+}
+.submit-section button {
+  margin-left: auto;
+}
+.submit-section textarea {
+  width: 100%;
+  height: 152px;
+}
+.container {
+  display: flex;
+  width: 665px;
+  height: 604px;
+}
+.column {
+  padding: 10px;
+  height: 100%;
+}
+.column-blue {
+  background-color: blue;
+  color: white;
+  width: 216px;
+  padding: 10px;
+  height: 100%;
+}
+.column-white {
+  background-color: white;
+  width: 449px;
+  padding: 10px;
+  height: 100%;
+}
+.grid-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.placeholder-diff{
+  width: 138px;
+  height: 7;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+  background: #FAFAFA;
+  color: #BAB9BD;
+  padding: 12px 14px 12px 12px;
+  border-radius: 5px;
+}
+p{
+ 
+}
